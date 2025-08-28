@@ -7758,11 +7758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\nhom1\\DoAn2\\DoAn2\\DoAn2.csproj",
+      "projectUniqueName": "D:\\doan2_new\\nhom1\\DoAn2\\DoAn2\\DoAn2.csproj",
       "projectName": "DoAn2",
-      "projectPath": "D:\\nhom1\\DoAn2\\DoAn2\\DoAn2.csproj",
+      "projectPath": "D:\\doan2_new\\nhom1\\DoAn2\\DoAn2\\DoAn2.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\nhom1\\DoAn2\\DoAn2\\obj\\",
+      "outputPath": "D:\\doan2_new\\nhom1\\DoAn2\\DoAn2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

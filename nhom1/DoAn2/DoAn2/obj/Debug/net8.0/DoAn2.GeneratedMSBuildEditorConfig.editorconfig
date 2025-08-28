@@ -17,69 +17,85 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DoAn2
 build_property.RootNamespace = DoAn2
-build_property.ProjectDir = D:\nhom1\DoAn2\DoAn2\
+build_property.ProjectDir = D:\doan2_new\nhom1\DoAn2\DoAn2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\nhom1\DoAn2\DoAn2
+build_property.MSBuildProjectDirectory = D:\doan2_new\nhom1\DoAn2\DoAn2
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/HangHoas/Create.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/HangHoas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/HangHoas/Delete.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/HangHoas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/HangHoas/Details.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/HangHoas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/HangHoas/Edit.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/HangHoas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/HangHoas/Index.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/HangHoas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/Home/Index.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/HangHoa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/HangHoa/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/Home/Privacy.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/Shared/Error.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/Shared/Components/MenuLoai/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudUxvYWlcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/Shared/_Footer.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/Shared/_DanhSachHangHoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYW5oU2FjaEhhbmdIb2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/Shared/_LayoutCustomer.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/Shared/_LayoutCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDdXN0b21lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/_ViewImports.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/_ViewStart.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/nhom1/DoAn2/DoAn2/Views/Shared/_Layout.cshtml]
+[D:/doan2_new/nhom1/DoAn2/DoAn2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gk8ir9sm4l
