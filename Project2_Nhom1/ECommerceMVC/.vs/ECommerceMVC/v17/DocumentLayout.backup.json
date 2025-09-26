@@ -1,0 +1,467 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\shared\\_copyright.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\shared\\_copyright.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\khachhang\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\khachhang\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\khachhang\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\khachhang\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\hanghoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\hanghoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\hanghoa\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\hanghoa\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\hanghoa\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\hanghoa\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\shared\\_timkiempanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\shared\\_timkiempanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\shared\\components\\menuloai\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\shared\\components\\menuloai\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\shared\\components\\cart\\cartpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\shared\\components\\cart\\cartpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\home\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\home\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|c:\\users\\dell\\documents\\k23cnt1_tranthebinh-main\\ecommercemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2E199A5-994C-4A89-A3B2-C0EF9C4C10AF}|ECommerceMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:34:17.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\KhachHang\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\KhachHang\\List.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\KhachHang\\List.cshtml",
+              "RelativeToolTip": "Views\\KhachHang\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:27:44.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\KhachHang\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\KhachHang\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\KhachHang\\Profile.cshtml",
+              "RelativeToolTip": "Views\\KhachHang\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:27:43.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\HangHoa\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\HangHoa\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\HangHoa\\Detail.cshtml",
+              "RelativeToolTip": "Views\\HangHoa\\Detail.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:27:11.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\HangHoa\\Search.cshtml",
+              "RelativeDocumentMoniker": "Views\\HangHoa\\Search.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\HangHoa\\Search.cshtml",
+              "RelativeToolTip": "Views\\HangHoa\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:27:09.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\HangHoa\\ProductItem.cshtml",
+              "RelativeDocumentMoniker": "Views\\HangHoa\\ProductItem.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\HangHoa\\ProductItem.cshtml",
+              "RelativeToolTip": "Views\\HangHoa\\ProductItem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:27:06.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\HangHoa\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HangHoa\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\HangHoa\\Index.cshtml",
+              "RelativeToolTip": "Views\\HangHoa\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:27:04.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_TimKiemPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_TimKiemPanel.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_TimKiemPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:26:12.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:26:10.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Copyright.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_Copyright.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Copyright.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_Copyright.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Copyright.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:21:46.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_DanhSachHangHoa.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:21:50.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:26:21.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\Components\\Cart\\CartPanel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Cart\\CartPanel.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\Components\\Cart\\CartPanel.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Cart\\CartPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:26:19.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:25:54.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutCustomer.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutCustomer.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:21:56.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:21:41.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PageNotFound.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Home\\PageNotFound.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\PageNotFound.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Home\\PageNotFound.cshtml",
+              "RelativeToolTip": "Views\\Home\\PageNotFound.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:21:37.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:21:35.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T04:21:33.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:13:18.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KhachHangController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\KhachHangController.cs",
+              "RelativeToolTip": "Controllers\\KhachHangController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwHsBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:13:01.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HangHoaController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "Controllers\\HangHoaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:12:56.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HangHoasController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\HangHoasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HangHoasController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\HangHoasController.cs",
+              "RelativeToolTip": "Controllers\\HangHoasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:12:46.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:12:40.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Helpers\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Helpers\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Helpers\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Helpers\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:12:27.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-26T04:04:51.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:04:42.437Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
