@@ -1,0 +1,70 @@
+﻿@model ECommerceMVC.Data.HangHoa
+
+@{
+    ViewData["Title"] = "Cập nhật hàng hóa";
+}
+
+<div class="container mt-4">
+    <h2>Cập nhật hàng hóa</h2>
+
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="MaHh" />
+
+        <div class="mb-3">
+            <label class="form-label">Tên hàng hóa</label>
+            <input asp-for="TenHh" class="form-control" />
+            <span asp-validation-for="TenHh" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Loại hàng</label>
+            <select asp-for="MaLoai" class="form-select" asp-items="ViewBag.MaLoai"></select>
+            <span asp-validation-for="MaLoai" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Nhà cung cấp</label>
+            <select asp-for="MaNcc" class="form-select" asp-items="ViewBag.MaNcc"></select>
+            <span asp-validation-for="MaNcc" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mô tả đơn vị</label>
+            <input asp-for="MoTaDonVi" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Đơn giá</label>
+            <input asp-for="DonGia" type="number" step="0.01" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Ngày sản xuất</label>
+            <input asp-for="NgaySx" type="date" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Giảm giá (%)</label>
+            <input asp-for="GiamGia" type="number" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mô tả</label>
+            <textarea asp-for="MoTa" class="form-control"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Hình</label>
+            <input type="file" name="Hinh" class="form-control" />
+            @if (!string.IsNullOrEmpty(Model.Hinh))
+            {
+                <div class="mt-2">
+                    <img src="~/@Model.Hinh" alt="Ảnh HH" width="120" height="120" />
+                </div>
+            }
+        </div>
+
+        <button type="submit" class="btn btn-primary">Cập nhật</button>
+        <a asp-action="List" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

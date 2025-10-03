@@ -1,0 +1,57 @@
+﻿@model ECommerceMVC.Data.HoaDon
+
+@{
+    ViewData["Title"] = "Chi tiết đơn hàng";
+}
+
+<div class="container mt-4">
+    <h2>Chi tiết đơn hàng #@Model.MaHd</h2>
+    <p><strong>Ngày đặt:</strong> @Model.NgayDat.ToString("dd/MM/yyyy")</p>
+    <p><strong>Trạng thái:</strong> 
+        @{
+            string status = Model.MaTrangThai switch
+            {
+                0 => "Chờ xử lý",
+                1 => "Đang giao",
+                2 => "Hoàn thành",
+                3 => "Hủy",
+                _ => "Không xác định"
+            };
+        }
+        @status
+    </p>
+    <p><strong>Nhân viên xử lý:</strong> @(Model.MaNvNavigation?.HoTen ?? "Chưa có")</p>
+
+    <h4>Danh sách sản phẩm</h4>
+    <table class="table table-bordered mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var ct in Model.ChiTietHds)
+        {
+            <tr>
+                <td>@ct.MaHhNavigation.TenHh</td>
+                <td>@string.Format("{0:N0} ₫", ct.DonGia)</td>
+                <td>@ct.SoLuong</td>
+                <td>@string.Format("{0:N0} ₫", ct.DonGia * ct.SoLuong)</td>
+            </tr>
+        }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-end fw-bold">Tổng cộng:</td>
+                <td class="text-danger fw-bold">
+                    @string.Format("{0:N0} ₫", Model.ChiTietHds.Sum(ct => ct.DonGia * ct.SoLuong))
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <a asp-action="MyOrders" class="btn btn-secondary">Quay lại danh sách</a>
+</div>

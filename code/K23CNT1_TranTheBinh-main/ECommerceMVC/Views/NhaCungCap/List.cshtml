@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ECommerceMVC.Data.NhaCungCap>
+
+@{
+    ViewData["Title"] = "Danh sách nhà cung cấp";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Danh sách nhà cung cấp</h2>
+    <div class="mb-3">
+        <a asp-action="Create" class="btn btn-primary">+ Thêm nhà cung cấp</a>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã NCC</th>
+                <th>Tên công ty</th>
+                <th>Logo</th>
+                <th>Người liên lạc</th>
+                <th>Email</th>
+                <th>Điện thoại</th>
+                <th>Địa chỉ</th>
+                <th>Mô tả</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ncc in Model)
+            {
+                <tr>
+                    <td>@ncc.MaNcc</td>
+                    <td>@ncc.TenCongTy</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(ncc.Logo))
+                        {
+                            <img src="~/@ncc.Logo" alt="Logo NCC" width="60" height="60" />
+                        }
+                    </td>
+                    <td>@ncc.NguoiLienLac</td>
+                    <td>@ncc.Email</td>
+                    <td>@ncc.DienThoai</td>
+                    <td>@ncc.DiaChi</td>
+                    <td>@ncc.MoTa</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@ncc.MaNcc" class="btn btn-sm btn-warning">Cập nhập</a>
+                        <a asp-action="Delete" asp-route-id="@ncc.MaNcc" class="btn btn-sm btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

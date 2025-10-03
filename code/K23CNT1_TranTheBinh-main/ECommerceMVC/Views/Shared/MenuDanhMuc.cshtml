@@ -1,0 +1,8 @@
+﻿@model IEnumerable<ECommerceMVC.ViewModels.MenuLoaiVM>
+
+<div class="dropdown-menu m-0 bg-secondary rounded-0">
+	@foreach (var item in Model)
+	{
+		<a asp-controller="KhachHang" asp-action="Profile" class="dropdown-item">@item.TenLoai</a>
+	}
+</div>

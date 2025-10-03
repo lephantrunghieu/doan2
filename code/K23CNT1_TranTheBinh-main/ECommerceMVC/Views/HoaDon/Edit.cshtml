@@ -1,0 +1,54 @@
+﻿@model ECommerceMVC.Data.HoaDon
+
+@{
+    ViewData["Title"] = "Cập nhật hóa đơn";
+}
+
+@{
+    var tongTien = Model.ChiTietHds.Sum(ct => ct.SoLuong * ct.DonGia);
+}
+
+<div class="container mt-4">
+    <h2>Cập nhật hóa đơn</h2>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="MaHd" />
+
+        <div class="mb-3">
+            <label class="form-label">Họ tên khách hàng</label>
+            <input asp-for="HoTen" class="form-control" readonly />
+            <span asp-validation-for="HoTen" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Địa chỉ giao</label>
+            <input asp-for="DiaChi" class="form-control" readonly />
+            <span asp-validation-for="DiaChi" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Ngày đặt</label> 
+            <input asp-for="NgayDat" type="date" class="form-control" readonly />
+            <span asp-validation-for="NgayDat" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Trạng thái</label>
+            <select asp-for="MaTrangThai" class="form-control">
+                <option value="0">Chờ xử lý</option>
+                <option value="1">Đang giao</option>
+                <option value="2">Hoàn thành</option>
+                <option value="3">Hủy</option>
+            </select>
+            <span asp-validation-for="MaTrangThai" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tổng tiền</label>
+            <input class="form-control" readonly value="@tongTien" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Cập nhật</button>
+        <a asp-action="List" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

@@ -1,0 +1,64 @@
+﻿@model ECommerceMVC.Data.NhaCungCap
+
+@{
+    ViewData["Title"] = "Cập nhật nhà cung cấp";
+}
+
+<div class="container mt-4">
+    <h2>Cập nhật nhà cung cấp</h2>
+
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <!-- hidden để giữ mã NCC -->
+        <input type="hidden" asp-for="@Model.MaNcc" />
+
+        <div class="mb-3">
+            <label class="form-label">Tên công ty</label>
+            <input asp-for="@Model.TenCongTy" class="form-control" />
+            <span asp-validation-for="@Model.TenCongTy" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Người liên lạc</label>
+            <input asp-for="@Model.NguoiLienLac" class="form-control" />
+            <span asp-validation-for="@Model.NguoiLienLac" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input asp-for="@Model.Email" class="form-control" />
+            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Điện thoại</label>
+            <input asp-for="@Model.DienThoai" class="form-control" />
+            <span asp-validation-for="@Model.DienThoai" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Địa chỉ</label>
+            <input asp-for="@Model.DiaChi" class="form-control" />
+            <span asp-validation-for="@Model.DiaChi" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mô tả</label>
+            <textarea asp-for="@Model.MoTa" class="form-control"></textarea>
+            <span asp-validation-for="@Model.MoTa" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Logo</label>
+            <input type="file" name="Logo" class="form-control" />
+            @if (!string.IsNullOrEmpty(Model.Logo))
+            {
+                <div class="mt-2">
+                    <img src="~/@Model.Logo" alt="Logo NCC" width="100" height="100" />
+                </div>
+            }
+        </div>
+
+        <button type="submit" class="btn btn-primary">Cập nhật</button>
+        <a asp-action="List" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

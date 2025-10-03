@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ECommerceMVC.Data.Loai>
+
+@{
+    ViewData["Title"] = "Danh sách loại hàng";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Danh sách loại hàng</h2>
+    <div class="mb-3">
+        <a asp-action="Create" class="btn btn-primary">+ Thêm loại hàng</a>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã loại</th>
+                <th>Tên loại</th>
+                <th>Alias</th>
+                <th>Mô tả</th>
+                <th>Hình</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var loai in Model)
+            {
+                <tr>
+                    <td>@loai.MaLoai</td>
+                    <td>@loai.TenLoai</td>
+                    <td>@loai.TenLoaiAlias</td>
+                    <td>@loai.MoTa</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(loai.Hinh))
+                        {
+                            <img src="~/@loai.Hinh" width="60" height="60" />
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@loai.MaLoai" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@loai.MaLoai" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

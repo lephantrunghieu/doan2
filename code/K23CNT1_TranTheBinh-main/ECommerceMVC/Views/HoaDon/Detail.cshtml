@@ -1,0 +1,63 @@
+﻿@model ECommerceMVC.Data.HoaDon
+
+@{
+    ViewData["Title"] = "Chi tiết hóa đơn";
+}
+
+@{
+    var tongTien = Model.ChiTietHds.Sum(ct => ct.SoLuong * ct.DonGia);
+}
+
+<div class="container mt-4">
+    <h2>Chi tiết hóa đơn #@Model.MaHd</h2>
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <p><strong>Khách hàng:</strong> @Model.HoTen</p>
+            <p><strong>Địa chỉ giao:</strong> @Model.DiaChi</p>
+            <p><strong>Ngày đặt:</strong> @Model.NgayDat.ToString("dd/MM/yyyy")</p>
+            <p><strong>Trạng thái:</strong> @(Model.MaTrangThai == 0 ? "Chờ xử lý" :
+      Model.MaTrangThai == 1 ? "Đang giao" :
+      Model.MaTrangThai == 2 ? "Hoàn thành" :
+      Model.MaTrangThai == 3 ? "Hủy" : "Không xác định")</p>
+            <p><strong>Tổng tiền:</strong> <span class="text-danger fw-bold">@string.Format("{0:N0} ₫", tongTien)</span></p>
+        </div>
+    </div>
+
+    <h4>Danh sách sản phẩm</h4>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã HH</th>
+                <th>Tên hàng hóa</th>
+                <th>Hình ảnh</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ct in Model.ChiTietHds)
+            {
+                <tr>
+                    <td>@ct.MaHh</td>
+                    <td>@ct.MaHhNavigation?.TenHh</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(ct.MaHhNavigation?.Hinh))
+                        {
+                            <img src="~/@ct.MaHhNavigation.Hinh" alt="@ct.MaHhNavigation.TenHh" width="60" height="60" />
+                        }
+                    </td>
+                    <td>@string.Format("{0:N0} ₫", ct.DonGia)</td>
+                    <td>@ct.SoLuong</td>
+                    <td>@string.Format("{0:N0} ₫", ct.SoLuong * ct.DonGia)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="mt-3">
+        <a asp-action="List" class="btn btn-secondary">Quay lại</a>
+        <a asp-action="Edit" asp-route-id="@Model.MaHd" class="btn btn-warning">Cập nhật</a>
+    </div>
+</div>

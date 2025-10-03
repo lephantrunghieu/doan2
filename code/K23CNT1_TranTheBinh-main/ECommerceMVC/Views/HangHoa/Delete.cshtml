@@ -1,0 +1,41 @@
+﻿@model ECommerceMVC.Data.HangHoa
+
+@{
+    ViewData["Title"] = "Xóa hàng hóa";
+}
+
+<div class="container mt-4">
+    <h2>Xóa hàng hóa</h2>
+
+    <h4>Bạn có chắc muốn xóa hàng hóa này?</h4>
+    <dl class="row">
+        <dt class="col-sm-2">Mã HH</dt>
+        <dd class="col-sm-10">@Model.MaHh</dd>
+
+        <dt class="col-sm-2">Tên HH</dt>
+        <dd class="col-sm-10">@Model.TenHh</dd>
+
+        <dt class="col-sm-2">Đơn giá</dt>
+        <dd class="col-sm-10">@((decimal)Model.DonGia).ToString("N0")</dd>
+
+        <dt class="col-sm-2">Nhà cung cấp</dt>
+        <dd class="col-sm-10">@Model.MaNcc</dd>
+
+        <dt class="col-sm-2">Loại hàng</dt>
+        <dd class="col-sm-10">@Model.MaLoai</dd>
+
+        <dt class="col-sm-2">Hình</dt>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.Hinh))
+            {
+                <img src="~/@Model.Hinh" alt="Ảnh HH" width="120" height="120" />
+            }
+        </dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="MaHh" />
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a asp-action="List" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

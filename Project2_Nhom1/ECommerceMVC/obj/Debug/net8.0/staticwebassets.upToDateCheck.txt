@@ -265,8 +265,19 @@ wwwroot\Hinh\icons\Yin-Yang.png
 wwwroot\Hinh\icons\Zoom in.png
 wwwroot\Hinh\icons\Zoom out.png
 wwwroot\Hinh\icons\Zoom.png
+wwwroot\Hinh\KhachHang\470666766_1251261552754737_632834714230415958_n.jpg
+wwwroot\Hinh\KhachHang\481960979_1091513569337152_4389578500292071504_n.jpg
+wwwroot\Hinh\KhachHang\481960979_1091513569337152_4389578500292071504_n_1.jpg
+wwwroot\Hinh\KhachHang\481960979_1091513569337152_4389578500292071504_n_2.jpg
 wwwroot\Hinh\KhachHang\5.png
+wwwroot\Hinh\KhachHang\530ee740dc2a048a73c81b7e3098c32f.jpg
+wwwroot\Hinh\KhachHang\530ee740dc2a048a73c81b7e3098c32f_1.jpg
+wwwroot\Hinh\KhachHang\6f09d7497dbfbdf9cdbc580fcafd163a.jpg
+wwwroot\Hinh\KhachHang\6f09d7497dbfbdf9cdbc580fcafd163a_1.jpg
+wwwroot\Hinh\KhachHang\6f09d7497dbfbdf9cdbc580fcafd163a_2.jpg
+wwwroot\Hinh\KhachHang\6f09d7497dbfbdf9cdbc580fcafd163a_3.jpg
 wwwroot\Hinh\KhachHang\7.png
+wwwroot\Hinh\KhachHang\74edebf30b29be5f5f66e5c5aac3225a.jpg
 wwwroot\Hinh\KhachHang\7_1.png
 wwwroot\Hinh\KhachHang\7_2.png
 wwwroot\Hinh\KhachHang\7_3.png
@@ -274,10 +285,17 @@ wwwroot\Hinh\KhachHang\7_4.png
 wwwroot\Hinh\KhachHang\7_5.png
 wwwroot\Hinh\KhachHang\7_6.png
 wwwroot\Hinh\KhachHang\android_300200.png
+wwwroot\Hinh\KhachHang\anh-avatar-facebook-11-1.jpg
+wwwroot\Hinh\KhachHang\anh-avatar-facebook-9-1.jpg
+wwwroot\Hinh\KhachHang\Anh-avatar-hoat-hinh-de-thuong-xinh-xan.jpg
 wwwroot\Hinh\KhachHang\Author.jpg
 wwwroot\Hinh\KhachHang\channels4_profile.jpg
+wwwroot\Hinh\KhachHang\channels4_profile_1.jpg
 wwwroot\Hinh\KhachHang\download.jpg
 wwwroot\Hinh\KhachHang\image.png
+wwwroot\Hinh\KhachHang\images.jpg
+wwwroot\Hinh\KhachHang\images_1.jpg
+wwwroot\Hinh\KhachHang\image_1.png
 wwwroot\Hinh\KhachHang\man.jpg
 wwwroot\Hinh\KhachHang\Penguins.jpg
 wwwroot\Hinh\KhachHang\woman.jpg

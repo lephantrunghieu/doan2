@@ -1,0 +1,31 @@
+﻿@model ECommerceMVC.Data.Loai
+
+@{
+    ViewData["Title"] = "Thêm loại hàng";
+}
+
+<div class="container mt-4">
+    <h2>Thêm loại hàng mới</h2>
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label class="form-label">Tên loại</label>
+            <input asp-for="TenLoai" class="form-control" />
+            <span asp-validation-for="TenLoai" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mô tả</label>
+            <textarea asp-for="MoTa" class="form-control"></textarea>
+            <span asp-validation-for="MoTa" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Hình</label>
+            <input type="file" name="Hinh" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Lưu</button>
+        <a asp-action="List" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

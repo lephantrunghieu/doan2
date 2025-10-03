@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ECommerceMVC.Data.HangHoa>
+@{
+    ViewData["Title"] = "Danh sách hàng hóa";
+}
+
+<div class="container mt-4">
+    <h2>Danh sách hàng hóa</h2>
+    <a asp-action="Create" class="btn btn-success mb-3">Thêm hàng hóa</a>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Mã HH</th>
+                <th>Tên HH</th>
+                <th>Loại</th>
+                <th>Nhà cung cấp</th>
+                <th>Đơn giá</th>
+                <th>Hình</th>
+                <th>Ngày SX</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaHh</td>
+                    <td>@item.TenHh</td>
+                    <td>@item.MaLoai</td>
+                    <td>@item.MaNcc</td>
+                    <td>@item.DonGia</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.Hinh))
+                        {
+                            <img src="~/@item.Hinh" width="80" height="80" />
+                        }
+                    </td>
+                    <td>@item.NgaySx.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.MaHh" class="btn btn-primary btn-sm">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.MaHh" class="btn btn-danger btn-sm">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

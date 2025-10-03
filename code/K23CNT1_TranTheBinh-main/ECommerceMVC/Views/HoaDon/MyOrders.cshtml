@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ECommerceMVC.Data.HoaDon>
+
+@{
+    ViewData["Title"] = "Đơn hàng của tôi";
+}
+
+<div class="container mt-4">
+    <h2>Đơn hàng của tôi</h2>
+
+    <table class="table table-bordered table-striped mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã HĐ</th>
+                <th>Ngày đặt</th>
+                <th>Tổng tiền</th>
+                <th>Trạng thái</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var hd in Model)
+        {
+            <tr>
+                <td>@hd.MaHd</td>
+                <td>@hd.NgayDat.ToString("dd/MM/yyyy")</td>
+                <td>@string.Format("{0:N0} ₫", hd.ChiTietHds.Sum(ct => ct.DonGia * ct.SoLuong))</td>
+                <td>
+                    @{
+                        string status = hd.MaTrangThai switch
+                        {
+                            0 => "Chờ xử lý",
+                            1 => "Đang giao",
+                            2 => "Hoàn thành",
+                            3 => "Hủy",
+                            _ => "Không xác định"
+                        };
+                    }
+                    @status
+                </td>
+                <td>
+                    <a asp-action="MyOrderDetail" asp-route-id="@hd.MaHd" class="btn btn-sm btn-info">Xem chi tiết</a>
+                    <a asp-action="Invoice" asp-controller="Cart" asp-route-id="@hd.MaHd" class="btn btn-sm btn-primary">Xem hóa đơn</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

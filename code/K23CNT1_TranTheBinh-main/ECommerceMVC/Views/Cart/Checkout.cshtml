@@ -1,0 +1,54 @@
+﻿@using System.Globalization
+@model IEnumerable<ECommerceMVC.ViewModels.CartItem>
+@{
+    ViewData["Title"] = "Thanh toán";
+}
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h2>Xác nhận đơn hàng</h2>
+
+<form asp-action="Checkout" method="post">
+    <div class="mb-3">
+        <label>Họ tên</label>
+        <input type="text" name="hoTen" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label>Địa chỉ</label>
+        <input type="text" name="diaChi" class="form-control" required />
+    </div>
+
+    <h4>Danh sách sản phẩm</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tên hàng</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.TenHH</td>
+                    <td>@item.DonGia.ToString("C0", new CultureInfo("vi-VN"))</td>
+                    <td>@item.SoLuong</td>
+                    <td>@item.ThanhTien.ToString("C0", new CultureInfo("vi-VN"))</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-end">Tổng cộng:</td>
+                <td>@Model.Sum(x => x.ThanhTien).ToString("C0", new CultureInfo("vi-VN"))</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <button type="submit" class="btn btn-success">Xác nhận thanh toán</button>
+</form>
+
+    </div>
+</div>

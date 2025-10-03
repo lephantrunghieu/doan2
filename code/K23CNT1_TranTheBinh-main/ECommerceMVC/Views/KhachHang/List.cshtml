@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ECommerceMVC.Data.KhachHang>
+
+@{
+    ViewData["Title"] = "Danh sách khách hàng";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Danh sách khách hàng</h2>
+    <div class="mb-3">
+        <a asp-action="Create" class="btn btn-primary">+ Thêm khách hàng</a>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã KH</th>
+                <th>Họ tên</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+                <th>Email</th>
+                <th>Điện thoại</th>
+                <th>Địa chỉ</th>
+                <th>Hình</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var kh in Model)
+            {
+                <tr>
+                    <td>@kh.MaKh</td>
+                    <td>@kh.HoTen</td>
+                    <td>@(kh.GioiTinh ? "Nam" : "Nữ")</td>
+                    <td>@kh.NgaySinh.ToString("dd/MM/yyyy")</td>
+                    <td>@kh.Email</td>
+                    <td>@kh.DienThoai</td>
+                    <td>@kh.DiaChi</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(kh.Hinh))
+                        {
+                            <img src="~/@kh.Hinh" alt="Ảnh KH" width="60" height="60" />
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@kh.MaKh" class="btn btn-sm btn-warning">Cập nhập</a>
+                        <a asp-action="Delete" asp-route-id="@kh.MaKh" class="btn btn-sm btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

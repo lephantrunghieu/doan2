@@ -1,0 +1,11 @@
+﻿@model IEnumerable<ECommerceMVC.ViewModels.MenuLoaiVM>
+
+<div class="nav-item dropdownMenuLoai">
+	<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdownMenuLoai">Danh mục</a>
+	<div class="dropdown-menu m-0 bg-secondary rounded-0">
+		@foreach (var item in Model)
+		{
+			<a asp-controller="HangHoa" asp-action="Index" asp-route-loai="@item.MaLoai" class="dropdown-item">@item.TenLoai</a>
+		}
+	</div>
+</div>

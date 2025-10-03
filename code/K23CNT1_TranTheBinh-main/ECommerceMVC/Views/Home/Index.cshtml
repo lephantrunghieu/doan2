@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ECommerceMVC.ViewModels.HangHoaVM>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-fluid py-5">
+	<div class="container py-5">
+        <div class="row">
+            @await Html.PartialAsync("ProductItem", Model)
+            </div>
+        </div>
+        </div>
+
+
