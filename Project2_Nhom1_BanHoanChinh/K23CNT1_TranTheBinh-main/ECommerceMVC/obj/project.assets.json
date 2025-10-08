@@ -7830,11 +7830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\code\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\ECommerceMVC.csproj",
+      "projectUniqueName": "D:\\doan2_new\\Project2_Nhom1_BanHoanChinh\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\ECommerceMVC.csproj",
       "projectName": "ECommerceMVC",
-      "projectPath": "C:\\Users\\DELL\\Downloads\\code\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\ECommerceMVC.csproj",
+      "projectPath": "D:\\doan2_new\\Project2_Nhom1_BanHoanChinh\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\ECommerceMVC.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Downloads\\code\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\obj\\",
+      "outputPath": "D:\\doan2_new\\Project2_Nhom1_BanHoanChinh\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

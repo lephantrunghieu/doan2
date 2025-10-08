@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HvUAJOYviUQ=",
+  "dgSpecHash": "WnijGF1PmmA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Downloads\\code\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\ECommerceMVC.csproj",
+  "projectFilePath": "D:\\doan2_new\\Project2_Nhom1_BanHoanChinh\\K23CNT1_TranTheBinh-main\\ECommerceMVC\\ECommerceMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

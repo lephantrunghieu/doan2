@@ -269,6 +269,7 @@ wwwroot\Hinh\KhachHang\470666766_1251261552754737_632834714230415958_n.jpg
 wwwroot\Hinh\KhachHang\481960979_1091513569337152_4389578500292071504_n.jpg
 wwwroot\Hinh\KhachHang\481960979_1091513569337152_4389578500292071504_n_1.jpg
 wwwroot\Hinh\KhachHang\481960979_1091513569337152_4389578500292071504_n_2.jpg
+wwwroot\Hinh\KhachHang\483102479_1096073852214457_2496002290326314279_n.jpg
 wwwroot\Hinh\KhachHang\5.png
 wwwroot\Hinh\KhachHang\530ee740dc2a048a73c81b7e3098c32f.jpg
 wwwroot\Hinh\KhachHang\530ee740dc2a048a73c81b7e3098c32f_1.jpg
@@ -286,6 +287,8 @@ wwwroot\Hinh\KhachHang\7_5.png
 wwwroot\Hinh\KhachHang\7_6.png
 wwwroot\Hinh\KhachHang\android_300200.png
 wwwroot\Hinh\KhachHang\anh-avatar-facebook-11-1.jpg
+wwwroot\Hinh\KhachHang\anh-avatar-facebook-11-1_1.jpg
+wwwroot\Hinh\KhachHang\anh-avatar-facebook-11-1_2.jpg
 wwwroot\Hinh\KhachHang\anh-avatar-facebook-9-1.jpg
 wwwroot\Hinh\KhachHang\Anh-avatar-hoat-hinh-de-thuong-xinh-xan.jpg
 wwwroot\Hinh\KhachHang\Author.jpg

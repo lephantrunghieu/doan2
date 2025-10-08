@@ -4,9 +4,9 @@ wwwroot\chackout.html
 wwwroot\contact.html
 wwwroot\css\bootstrap.min.css
 wwwroot\css\site.css
-wwwroot\css\style.css
 wwwroot\favicon.ico
 wwwroot\Hinh\divider.gif
+wwwroot\Hinh\HangHoa\1.jpg
 wwwroot\Hinh\HangHoa\1009.gif
 wwwroot\Hinh\HangHoa\21meTyhQebL._SL500_AA300_.jpg
 wwwroot\Hinh\HangHoa\31EPGSm2s1L._SL500_AA300_.jpg
@@ -277,6 +277,7 @@ wwwroot\Hinh\KhachHang\7_4.png
 wwwroot\Hinh\KhachHang\7_5.png
 wwwroot\Hinh\KhachHang\7_6.png
 wwwroot\Hinh\KhachHang\android_300200.png
+wwwroot\Hinh\KhachHang\anh-avatar-facebook-9-1.jpg
 wwwroot\Hinh\KhachHang\Author.jpg
 wwwroot\Hinh\KhachHang\download.jpg
 wwwroot\Hinh\KhachHang\man.jpg
@@ -304,17 +305,25 @@ wwwroot\Hinh\Loai\Funny.png
 wwwroot\Hinh\Loai\Heart.png
 wwwroot\Hinh\Loai\Microsoft.png
 wwwroot\Hinh\Loai\Unlock.png
+wwwroot\Hinh\NhaCC\481960979_1091513569337152_4389578500292071504_n.jpg
+wwwroot\Hinh\NhaCC\483102479_1096073852214457_2496002290326314279_n.jpg
+wwwroot\Hinh\NhaCC\557246326_122131388156940771_6027919482970260332_n.jpg
+wwwroot\Hinh\NhaCC\74edebf30b29be5f5f66e5c5aac3225a.jpg
 wwwroot\Hinh\NhaCC\Acer_logo-300x300.gif
 wwwroot\Hinh\NhaCC\amd-logo.jpg
+wwwroot\Hinh\NhaCC\anh-avatar-facebook-11-1.jpg
+wwwroot\Hinh\NhaCC\anh-avatar-facebook-9-1.jpg
 wwwroot\Hinh\NhaCC\apple.jpg
 wwwroot\Hinh\NhaCC\dell-logo.jpg
 wwwroot\Hinh\NhaCC\dell-logo2.jpg
 wwwroot\Hinh\NhaCC\hp-logo.jpg
+wwwroot\Hinh\NhaCC\images.jpg
 wwwroot\Hinh\NhaCC\intel-logo.jpg
 wwwroot\Hinh\NhaCC\motorola.jpg
 wwwroot\Hinh\NhaCC\nokia.jpg
 wwwroot\Hinh\NhaCC\samsung-logo-2.jpg
 wwwroot\Hinh\NhaCC\samsung.jpg
+wwwroot\Hinh\NhaCC\Screenshot_3.jpg
 wwwroot\Hinh\NhaCC\shopping_cart.png
 wwwroot\Hinh\NhaCC\sonny-ericsson.jpg
 wwwroot\Hinh\NhaCungCap\7.png
@@ -329,6 +338,7 @@ wwwroot\img\best-product-4.jpg
 wwwroot\img\best-product-5.jpg
 wwwroot\img\best-product-6.jpg
 wwwroot\img\cart-page-header-img.jpg
+wwwroot\img\co-nen-tao-website-ban-hang-online-3.webp
 wwwroot\img\featur-1.jpg
 wwwroot\img\featur-2.jpg
 wwwroot\img\featur-3.jpg
@@ -516,3 +526,4 @@ wwwroot\scss\bootstrap\scss\_variables.scss
 wwwroot\shop-detail.html
 wwwroot\shop.html
 wwwroot\testimonial.html
+wwwroot\css\style.css
